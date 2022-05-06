@@ -1,0 +1,15 @@
+introduction
+data
+analysis
+linearity
+interpretation
+intercept
+deficit
+hispanic
+white
+black
+foreign-born
+per-capita-income
+residuals
+conclusion
+limitations
