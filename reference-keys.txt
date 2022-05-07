@@ -1,7 +1,9 @@
 introduction
 data
+visualizations
 analysis
 linearity
+neighborhood-structure
 interpretation
 intercept
 deficit
@@ -13,3 +15,4 @@ per-capita-income
 residuals
 conclusion
 limitations
+references

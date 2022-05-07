@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>2 Data | STAT 452: Project!@!</title>
+  <title>2 Data | STAT 452: Project</title>
   <meta name="description" content="This is our project" />
   <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="2 Data | STAT 452: Project!@!" />
+  <meta property="og:title" content="2 Data | STAT 452: Project" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="This is our project" />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="2 Data | STAT 452: Project!@!" />
+  <meta name="twitter:title" content="2 Data | STAT 452: Project" />
   
   <meta name="twitter:description" content="This is our project" />
   
@@ -29,7 +29,7 @@
   
   
 <link rel="prev" href="introduction.html"/>
-<link rel="next" href="analysis.html"/>
+<link rel="next" href="visualizations.html"/>
 <script src="libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -117,6 +117,28 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 </head>
 
@@ -139,23 +161,26 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
 <li class="chapter" data-level="2" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>2</b> Data</a></li>
-<li class="chapter" data-level="3" data-path="analysis.html"><a href="analysis.html"><i class="fa fa-check"></i><b>3</b> Analysis</a>
+<li class="chapter" data-level="3" data-path="visualizations.html"><a href="visualizations.html"><i class="fa fa-check"></i><b>3</b> Visualizations</a></li>
+<li class="chapter" data-level="4" data-path="analysis.html"><a href="analysis.html"><i class="fa fa-check"></i><b>4</b> Analysis</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="analysis.html"><a href="analysis.html#linearity"><i class="fa fa-check"></i><b>3.1</b> Linearity</a></li>
-<li class="chapter" data-level="3.2" data-path="analysis.html"><a href="analysis.html#interpretation"><i class="fa fa-check"></i><b>3.2</b> Interpretation</a>
+<li class="chapter" data-level="4.1" data-path="analysis.html"><a href="analysis.html#linearity"><i class="fa fa-check"></i><b>4.1</b> Linearity</a></li>
+<li class="chapter" data-level="4.2" data-path="analysis.html"><a href="analysis.html#neighborhood-structure"><i class="fa fa-check"></i><b>4.2</b> Neighborhood Structure</a></li>
+<li class="chapter" data-level="4.3" data-path="analysis.html"><a href="analysis.html#interpretation"><i class="fa fa-check"></i><b>4.3</b> Interpretation</a>
 <ul>
-<li class="chapter" data-level="3.2.1" data-path="analysis.html"><a href="analysis.html#intercept"><i class="fa fa-check"></i><b>3.2.1</b> Intercept</a></li>
-<li class="chapter" data-level="3.2.2" data-path="analysis.html"><a href="analysis.html#deficit"><i class="fa fa-check"></i><b>3.2.2</b> Deficit</a></li>
-<li class="chapter" data-level="3.2.3" data-path="analysis.html"><a href="analysis.html#hispanic"><i class="fa fa-check"></i><b>3.2.3</b> Hispanic</a></li>
-<li class="chapter" data-level="3.2.4" data-path="analysis.html"><a href="analysis.html#white"><i class="fa fa-check"></i><b>3.2.4</b> White</a></li>
-<li class="chapter" data-level="3.2.5" data-path="analysis.html"><a href="analysis.html#black"><i class="fa fa-check"></i><b>3.2.5</b> Black</a></li>
-<li class="chapter" data-level="3.2.6" data-path="analysis.html"><a href="analysis.html#foreign-born"><i class="fa fa-check"></i><b>3.2.6</b> Foreign-born</a></li>
-<li class="chapter" data-level="3.2.7" data-path="analysis.html"><a href="analysis.html#per-capita-income"><i class="fa fa-check"></i><b>3.2.7</b> Per-capita Income</a></li>
+<li class="chapter" data-level="4.3.1" data-path="analysis.html"><a href="analysis.html#intercept"><i class="fa fa-check"></i><b>4.3.1</b> Intercept</a></li>
+<li class="chapter" data-level="4.3.2" data-path="analysis.html"><a href="analysis.html#deficit"><i class="fa fa-check"></i><b>4.3.2</b> Deficit</a></li>
+<li class="chapter" data-level="4.3.3" data-path="analysis.html"><a href="analysis.html#hispanic"><i class="fa fa-check"></i><b>4.3.3</b> Hispanic</a></li>
+<li class="chapter" data-level="4.3.4" data-path="analysis.html"><a href="analysis.html#white"><i class="fa fa-check"></i><b>4.3.4</b> White</a></li>
+<li class="chapter" data-level="4.3.5" data-path="analysis.html"><a href="analysis.html#black"><i class="fa fa-check"></i><b>4.3.5</b> Black</a></li>
+<li class="chapter" data-level="4.3.6" data-path="analysis.html"><a href="analysis.html#foreign-born"><i class="fa fa-check"></i><b>4.3.6</b> Foreign-born</a></li>
+<li class="chapter" data-level="4.3.7" data-path="analysis.html"><a href="analysis.html#per-capita-income"><i class="fa fa-check"></i><b>4.3.7</b> Per-capita Income</a></li>
 </ul></li>
-<li class="chapter" data-level="3.3" data-path="analysis.html"><a href="analysis.html#residuals"><i class="fa fa-check"></i><b>3.3</b> Residuals</a></li>
+<li class="chapter" data-level="4.4" data-path="analysis.html"><a href="analysis.html#residuals"><i class="fa fa-check"></i><b>4.4</b> Residuals</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>4</b> Conclusion</a></li>
-<li class="chapter" data-level="5" data-path="limitations.html"><a href="limitations.html"><i class="fa fa-check"></i><b>5</b> Limitations</a></li>
+<li class="chapter" data-level="5" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>5</b> Conclusion</a></li>
+<li class="chapter" data-level="6" data-path="limitations.html"><a href="limitations.html"><i class="fa fa-check"></i><b>6</b> Limitations</a></li>
+<li class="chapter" data-level="7" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>7</b> References</a></li>
 <li class="divider"></li>
 <li><a href="https://bookdown.org" target="blank">Published with bookdown</a></li>
 
@@ -168,7 +193,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">STAT 452: Project!@!</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">STAT 452: Project</a>
           </h1>
         </div>
 
@@ -178,21 +203,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="data" class="section level1" number="2">
 <h1><span class="header-section-number">2</span> Data</h1>
-<p>Here, we introduce the datasets we used to conduct this analysis. Because election results does not cover the demographic or economic factors that we will use, we need to join several datasets together to create the analysis and the visualizations that we might need.</p>
+<p>Here, we introduce the data sets we used to conduct this analysis. Because election results does not cover the demographic or economic factors that we will use, we need to join several data sets together to create the analysis and the visualizations that we might need.</p>
 <p>Our main data set that contains all of the counties in Texas, their voting statistics and the amount of votes each candidate received from each county came from the <a href="https://data.census.gov/cedsci/">US Census</a>. Once we downloaded this data, we cleaned the data by removing unnecessary variables that did not have any impact on voting results and changed the county names so that they were in an identical style. This was our principle data set that we joined all of the following data sets to. The next, is our data set that included voter registration figures from 2016, gathered from <a href="https://www.sos.state.tx.us/elections/historical/nov2016.shtml">Texas Secretary of State</a>, and we combined that with our TX data set.</p>
 <p>After that, we included data that had the population estimates from 2016 based off of data from the <a href="https://demographics.texas.gov/data/tpepp/estimates/">TDC - Texas Demographic Center</a>. We also combined this with our main TX data to show the proportion of registered voters as well as the proportion of actual voters from registration.</p>
 <p>Next, we added two data sets that included 2016 demographic data by county and 2016 income data, both by county and both of these data sets came from the <a href="https://data.census.gov/cedsci/">Census</a>. The Demographics data included the amount of people that were of a certain race or ethnicity and the number of people in each county that were foreign-born.</p>
 <p>The income data included only the average per-capita income of each county and we combined both of these data sets to the main TX data set. Lastly, we include two data sets that we use for visualizing, which includes the spatial county map of Texas, gathered from the <a href="https://walker-data.com/tidycensus/">Tidycensus package in R</a>, and data that adds the major cities in Texas, whose coordinated we acquired from <a href="https://www.google.com/maps">Google Maps</a>, to get a better understanding of where major city centers are located in Texas.</p>
-<p>The first visualization we wanted to look at from our data was to see which candidates won each of the different counties in Texas and the margin of victory held in each county.</p>
-<p><img src="stat452_project_files/figure-html/unnamed-chunk-4-1.png" width="672" /><img src="stat452_project_files/figure-html/unnamed-chunk-4-2.png" width="672" />
-As you can see, many of the counties voted in favor of Republican Donald Trump, which is not a surprise seeing that Texas as a state has leaned Republican in every Presidential election since 1976 when Jimmy Carter won there. However, what we do notice is that around metropolitan/city centers, more people voted for Clinton, but more surprisingly, many along the Texas-Mexico border also voted in favor of Hillary Clinton. These counties became a focus for us as we began to look deeper into the results of the election. (Also there are counties on these maps that are white and that is because these counties did not have enough data in the census for us to include them in our analysis.)</p>
-<p>Next, we wanted to look at demographic data across Texas so that we can gain more of an understanding of where certain demographics are located within the state.</p>
-<p><img src="stat452_project_files/figure-html/unnamed-chunk-5-1.png" width="672" /><img src="stat452_project_files/figure-html/unnamed-chunk-5-2.png" width="672" />
-These maps give a very stark representation into where the two predominant race/ethnicities, White and Hispanic, are located in Texas. The further Southwest or closer the counties are to the Mexican border, we see a higher proportion of voters that are Hispanic and the farther Northeast or farther away from the border, we see a higher proportion of white voters. While this may make a lot of sense, I want you to keep this in mind as we look at our next visualization set.</p>
-<p>Texas is notoriously bad at getting its registered voters to actually get to the voting booth and is consistently ranked as one of the worst states at getting voters to turnout in national elections. So, in this visualization, we analyzed how far away each county is from the national average of 60% <a href="https://www.statista.com/statistics/632113/2016-us-presidential-election-voter-turnout-by-state/">Statista</a>.</p>
-<p><img src="stat452_project_files/figure-html/unnamed-chunk-6-1.png" width="672" />
-In this visualization, the counties that are in green are above the national average in voter turnout, counties in white at the national average and counties in red are below the national average. Counties that are more red are farther below the national average and the counties that are the most red along the Texas-Mexican border, which has a higher majority of Hispanic voters.</p>
-
 </div>
             </section>
 
@@ -200,7 +215,7 @@ In this visualization, the counties that are in green are above the national ave
         </div>
       </div>
 <a href="introduction.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="analysis.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="visualizations.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
